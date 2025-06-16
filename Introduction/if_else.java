@@ -1,5 +1,6 @@
 import java.util.Scanner;
 class if_else {
+    //This is a solution to the HackerRank problem "Java If-Else"
     //https://www.hackerrank.com/challenges/java-if-else/problem?isFullScreen=true
 private static final Scanner scanner = new Scanner(System.in);
 
