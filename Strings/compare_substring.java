@@ -3,7 +3,7 @@ package Strings;
 import java.util.Scanner;
 
 public class compare_substring {
-    public static void main(String args) {
+    public static void main(String[] args) {
         Scanner sc= new Scanner (System.in);
         String s = sc.next();
         int k = sc.nextInt();
@@ -19,7 +19,7 @@ public class compare_substring {
             return null;
         }
         String substrings[] = new String[s.length()-k+1];
-        for(int i =0;i<s.length()-1;i++){
+        for(int i =0;i<=s.length()-k;i++){
             substrings[i]= s.substring(i, i+k);
         }
         smallest = substrings[0];
