@@ -1,5 +1,6 @@
 package Strings;
-
+// Given a string,s , and an integer,k , complete the function so that it finds the lexicographically smallest and largest substrings of length k.
+// https://www.hackerrank.com/challenges/java-string-compare/problem?isFullScreen=true
 import java.util.Scanner;
 
 public class compare_substring {
@@ -20,15 +21,17 @@ public class compare_substring {
         }
         String substrings[] = new String[s.length()-k+1];
         for(int i =0;i<=s.length()-k;i++){
-            substrings[i]= s.substring(i, i+k);
+            substrings[i]= s.substring(i, i+k);// Extracting all substrings of length k
         }
         smallest = substrings[0];
         largest = substrings[0];
         for(int j =0;j<substrings.length;j++){
-            if(smallest.compareTo(substrings[j])>0){
+            if(smallest.compareTo(substrings[j])>0){// Compare lexicographically
+                // If the current substring is smaller than the smallest found so far, update smallest
                 smallest = substrings[j];
             }
-            if(largest.compareTo(substrings[j])<0){
+            if(largest.compareTo(substrings[j])<0){// Compare lexicographically
+                // If the current substring is larger than the largest found so far, update largest
                 largest = substrings[j];
             }
         }

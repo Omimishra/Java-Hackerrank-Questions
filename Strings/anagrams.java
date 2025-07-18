@@ -1,4 +1,6 @@
 package Strings;
+// Two strings, a and b, are called anagrams if they contain all the same characters in the same frequencies. For this challenge, the test is not case-sensitive. 
+// https://www.hackerrank.com/challenges/java-anagrams/problem?isFullScreen=true
 import java.util.Arrays;
 public class anagrams {
     static boolean isAnagram(String a,String b){
