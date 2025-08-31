@@ -6,6 +6,7 @@ import java.math.*;
 public class prime {
     // Given a large integer, n , use the Java BigInteger class' isProbablePrime
     // method to determine and print whether it's prime or not prime.
+    // https://www.hackerrank.com/challenges/java-primality-test/problem?isFullScreen=true
 
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

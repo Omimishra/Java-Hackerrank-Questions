@@ -6,6 +6,7 @@ import java.util.*;
 public class Java_big_decimal {
 // The first line consists of a single integer, n , denoting the number of integer strings.
 //  You are only responsible for reordering the array's elements.
+// https://www.hackerrank.com/challenges/java-bigdecimal/problem?isFullScreen=true
     public static void main(String[] args) {
         // Input
         Scanner sc = new Scanner(System.in);
